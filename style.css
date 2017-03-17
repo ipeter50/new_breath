@@ -1,6 +1,6 @@
 #header
 {
-	background-image: url('images/header.jpg');
+	background-image: linear-gradient(0deg,rgba(0,0,0,0.2) 0%,rgba(0,0,0,0.2) 100%), url('images/header.jpg');
 	background-position: center;
 	padding:150px;
 	padding-top: 100px;
@@ -8,23 +8,42 @@
 	text-align: center;
 }
 
+#title
+{
+	background-size: cover;
+}
+
 h1
 {
 	font-size: 70px;
 	color: white;
 	font-family: 'Permanent Marker', cursive;
+	text-shadow: 1px 1px 3px #222222;
 }
 
 h2
 {
 	font-size: 50px;
+	text-shadow: 1px 1px 3px #222222;
 	color:white;
 	font-family: 'McLaren', cursive;
 }
 
 h1:hover
 {
-	
+	text-shadow: 3px 3px 5px #222222;
+}
+
+h6
+{
+	font-family: 'McLaren', cursive;
+	font-size: 50px;
+}
+
+
+a
+{
+	font-family: 'McLaren', cursive;
 }
 
 body
@@ -35,6 +54,8 @@ body
 #button
 {
 	margin: 50px;
+
+
 }
 #angle
 {
@@ -52,12 +73,14 @@ body
 	margin-bottom: 30px;
 }
 
+
 .profile
 {
 	border-collapse: separate;
-	box-shadow: 3px 3px rgb(210,210,210);
+	box-shadow: 1px 1px 3px rgb(210,210,210);
 	padding:10px;
 	background-color: #B7B3A1;
+	font-size: 18px;
 	margin-bottom: 10px;
 }
 
@@ -101,11 +124,14 @@ p
 h4
 {
 	font-family: 'McLaren', cursive;
+	font-size: 30px;
 }
 
 h5
 {
 	font-family: 'McLaren', cursive;
+	font-size: 35px;
+	color:white;
 }
 #footer
 {
@@ -132,12 +158,15 @@ h5
 
 #story
 {
-	padding: 70px;
+	padding: 40px;
 }
 
 #desc-john
 {
-	padding:60px;
+	margin-top: 50px;
+	margin-right: 60px;
+	font-size: 18px;
+	
 }
 
 
@@ -152,13 +181,18 @@ h5
 #assets
 {
 	
-	height: 800px;
+	height: 900px;
 	padding: 20px;
+}
+
+#john-name
+{
+	font-size: 18px;
 }
 
 #bulle1
 {
-	background-color:rgba(0,255,0,0.5);
+	background-color:rgba(0,175,181,0.8);
 	width: 400px;
 	height: 400px;
 	margin: auto;
@@ -170,10 +204,11 @@ h5
 
 .vertical-center {
 	padding: 30%;
+
 }
 
 #bulle2 {
-    background-color: rgba(255,0,0,0.5);
+    background-color: rgba(0,56,94,0.8);
     width: 400px;
     height: 400px;
     position: absolute;
@@ -183,7 +218,7 @@ h5
 }
 
 #bulle3 {
-    background-color: rgba(0,0,255,0.5);
+    background-color: rgba(24,152,0,0.8);
     width: 400px;
     height: 400px;
     position: absolute;
@@ -193,3 +228,8 @@ h5
 
 }
 
+.text-bulle
+{
+	color:white;
+	font-size: 18px;
+}
