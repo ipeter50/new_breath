@@ -12,12 +12,14 @@ h1
 {
 	font-size: 70px;
 	color: white;
+	font-family: 'Permanent Marker', cursive;
 }
 
 h2
 {
 	font-size: 50px;
 	color:white;
+	font-family: 'McLaren', cursive;
 }
 
 h1:hover
@@ -41,16 +43,28 @@ body
 	text-align: center;
 
 }
+#John
+{
+	background-color: #B7B3A1;
+	padding:10px;
+	border-collapse: separate;
+	box-shadow: 3px 3px rgb(210,210,210);
+	margin-bottom: 30px;
+}
 
 .profile
 {
 	border-collapse: separate;
 	box-shadow: 3px 3px rgb(210,210,210);
 	padding:10px;
-
 	background-color: #B7B3A1;
+	margin-bottom: 10px;
 }
 
+.basketball
+{
+	color : rgb(154,154,154);
+}
 #description
 {
 	margin-top: 20px;
@@ -60,6 +74,7 @@ body
 .photo
 {
 	border: 5px solid white;
+
 	border-radius:50%; 
 	margin:20px;
 }
@@ -68,23 +83,45 @@ body
 {
 	margin:25px;
 }
+i
+{
+	font-family: 'McLaren', cursive;
+}
 h3
 {
 	color: #E6E6E6;
 	margin-left: 20px;
+	font-family: 'McLaren', cursive;
+}
+p
+{
+	font-family: 'McLaren', cursive;
+}
+
+h4
+{
+	font-family: 'McLaren', cursive;
+}
+
+h5
+{
+	font-family: 'McLaren', cursive;
 }
 #footer
 {
-	background-color: #1C3738;
+	background: #1C3738;
+	background-size: 2000px 100%;
 	text-align: center;
 	font-size: 30px;
 	padding: 20px;
 }
 
+
 .profile:hover
 {
 	margin-left: -3px;
 	margin-right: -3px;
+
 	box-shadow: 5px 5px rgb(210,210,210);
 }
 
@@ -92,3 +129,67 @@ h3
 {
 	color:#B7B3A1;
 }
+
+#story
+{
+	padding: 70px;
+}
+
+#desc-john
+{
+	padding:60px;
+}
+
+
+#John:hover
+{
+	margin-left: -3px;
+	margin-right: -3px;
+
+	box-shadow: 5px 5px rgb(210,210,210);
+}
+
+#assets
+{
+	
+	height: 800px;
+	padding: 20px;
+}
+
+#bulle1
+{
+	background-color:rgba(0,255,0,0.5);
+	width: 400px;
+	height: 400px;
+	margin: auto;
+	border-radius: 50%;
+	position: relative;
+	margin-top: 50px;
+
+}
+
+.vertical-center {
+	padding: 30%;
+}
+
+#bulle2 {
+    background-color: rgba(255,0,0,0.5);
+    width: 400px;
+    height: 400px;
+    position: absolute;
+    bottom: -65%;
+    left: 40%;
+    border-radius: 50%;
+}
+
+#bulle3 {
+    background-color: rgba(0,0,255,0.5);
+    width: 400px;
+    height: 400px;
+    position: absolute;
+    bottom: -65%;
+    right: 40%;
+    border-radius: 50%;
+
+}
+
