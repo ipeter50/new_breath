@@ -38,6 +38,7 @@ h6
 {
 	font-family: 'McLaren', cursive;
 	font-size: 50px;
+	padding-top: 50px;
 }
 
 
@@ -59,11 +60,18 @@ body
 }
 #angle
 {
-	margin: 100px;
+	margin: 60px;
+	
 	font-size: 30px;
 	text-align: center;
+	
 
 }
+#examples
+{
+	padding-top: 20px;
+}
+
 #John
 {
 	background-color: #B7B3A1;
@@ -81,7 +89,7 @@ body
 	padding:10px;
 	background-color: #B7B3A1;
 	font-size: 18px;
-	margin-bottom: 10px;
+	margin-bottom: 50px;
 }
 
 .basketball
@@ -102,10 +110,6 @@ body
 	margin:20px;
 }
 
-#assets
-{
-	margin:25px;
-}
 i
 {
 	font-family: 'McLaren', cursive;
@@ -181,6 +185,8 @@ h5
 #assets
 {
 	
+	margin:25px;
+	margin-bottom: 100px;
 	height: 900px;
 	padding: 20px;
 }
@@ -199,7 +205,23 @@ h5
 	border-radius: 50%;
 	position: relative;
 	margin-top: 50px;
+	z-index: 1;
 
+}
+
+#bulle1:hover
+{
+	background-color:rgba(0,175,181,1);
+}
+
+#bulle2:hover
+{
+	background-color: rgba(0,56,94,1);
+}
+
+#bulle3:hover
+{
+	background-color: rgba(24,152,0,1);
 }
 
 .vertical-center {
@@ -215,6 +237,7 @@ h5
     bottom: -65%;
     left: 40%;
     border-radius: 50%;
+    z-index: 2;
 }
 
 #bulle3 {
@@ -225,6 +248,7 @@ h5
     bottom: -65%;
     right: 40%;
     border-radius: 50%;
+    z-index: 3;
 
 }
 
@@ -232,4 +256,11 @@ h5
 {
 	color:white;
 	font-size: 18px;
+}
+
+hr
+{
+	color: black;
+	background-color: black;
+	border-color: black;
 }
